@@ -1,0 +1,22 @@
+/* FLEX */
+
+.flex {
+    display:flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.fx-align-center {
+    align-items: center;
+}
+
+
+.bold {
+    font-weight: bold;
+}

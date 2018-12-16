@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MissKeep App</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <nav class="nav-container">
+                <router-link class="nav-item" exact to="/">Home</router-link> | 
+                <router-link class="nav-item" to="/about">about</router-link> |
+                <router-link class="nav-item" to="/keep">My notes</router-link> |
+                <a href="../index.html" class="nav-item">Appsus</a>
+                <img class="img-logo" src="img/navlogo.png">
+            </nav>        
+        </header>
+        <router-view></router-view>
+        <footer class="keep-footer">
+            <h6>Copyright 2018 MissKeep App</h6>
+        </footer>
+        
+    </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="lib/vue.js"></script>
+    <script src="lib/vue-router.js"></script>
+    <script src="lib/moment.js"></script>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+
+@import 'helpers.css';
+@import 'keep.css';
+@import 'list.css';
+@import 'header.css';
+@import 'edit.css';
+@import 'home.css';
+@import 'about.css';
+@import 'footer.css';
+
+
+
+
+body{
+    background: wheat;
+}
+
+
+.nav-item{
+text-decoration: none;
+color: darkgoldenrod;
+}
+
+
+
+.img-logo{
+    position: absolute;
+    width: 50px;
+    right: 30px;
+}
+
