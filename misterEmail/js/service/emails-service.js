@@ -20,7 +20,7 @@ var emailsDB = [
         from: 'Slack',
         subject: 'Notifications from the Coding Academy',
         body: `
-        Hi Ido, You have a new mention from the 
+        Hi Ron, You have a new mention from the 
         Coding Academy Sep 2018 workspace (ca-sep18.slack.com).`,                     
         isRead: true,
         sentAt: 1541683064730,
@@ -30,7 +30,7 @@ var emailsDB = [
         from: 'mySupermarket',
         subject: 'הזמנתך הועברה לרשת השיווק',
         body: `
-        שלום עידו,
+        שלום רון,
         תודה שקנית ב mySupermarket.
         חסכת היום :2080.20
         הזמנתך הועברה ל יינות ביתן 
